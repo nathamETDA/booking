@@ -123,7 +123,7 @@ func launchClient(numberOfClient int) {
 }
 
 func main() {
-	numberOfClient := 10000
+	numberOfClient := 1000
 
 	go launchClient(numberOfClient)
 
